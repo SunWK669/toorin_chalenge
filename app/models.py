@@ -63,6 +63,12 @@ class Book(models.Model):
         help_text="Publishing company of the book"
     )
 
+    edition = models.CharField(
+        max_length=150,
+        verbose_name="Edition",
+        help_text="Edition of the book"
+    )
+
     number_of_pages = models.IntegerField(
         verbose_name="Number of pages",
         help_text="Number of pages of the book"
