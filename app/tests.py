@@ -18,6 +18,7 @@ class TestBooks(TestCase):
             "title": "João e o pé de feijão",
             "isbn": "1234567890912",
             "number_of_pages": 159,
+            "edition": 23,
             "description": "alisdjksd",
             "author": 1,
             "publishing_company": 1
@@ -26,6 +27,7 @@ class TestBooks(TestCase):
             "id": 1,
             "title": "João e o pé de feijão",
             "isbn": "1234567890912",
+            "edition": "23",
             "number_of_pages": 159,
             "description": "alisdjksd",
             "author": 1,
@@ -58,6 +60,7 @@ class TestBooks(TestCase):
             "title": "João e o pé de feijão",
             "isbn": "12345678909122",
             "number_of_pages": 159,
+            "edition": 23,
             "description": "alisdjksd",
             "author": 73,
             "publishing_company": 98
